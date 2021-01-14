@@ -1,10 +1,4 @@
-﻿using System;
-namespace RefitSample.Dtos
+﻿namespace RefitSample.Dtos
 {
-    public class Category
-    {
-        public Category()
-        {
-        }
-    }
+    public record Category(string Id,string Name);
 }

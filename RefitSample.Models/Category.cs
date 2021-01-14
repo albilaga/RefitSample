@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+
 namespace RefitSample.Models
 {
     public class Category
     {
-        public Category()
-        {
-        }
+        [JsonProperty("id")]
+        public long Id { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
     }
 }

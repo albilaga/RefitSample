@@ -1,10 +1,4 @@
-﻿using System;
-namespace RefitSample.Dtos
+﻿namespace System.Runtime.CompilerServices
 {
-    public class IsExternalInity
-    {
-        public IsExternalInity()
-        {
-        }
-    }
+    public class IsExternalInit { }
 }
